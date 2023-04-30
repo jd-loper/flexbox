@@ -1,0 +1,82 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Helvetica, sans-serif;
+}
+
+.menu-container {
+  display: flex;
+  color: #fff;
+  background-color: #5995da;
+  padding: 20px 0;
+  justify-content: center;
+}
+.menu-container .menu {
+  width: 900px;
+  display: flex;
+  justify-content: space-between;
+}
+.menu-container .menu .login {
+  margin-left: 20px;
+}
+.menu-container .menu .signup {
+  margin-left: auto;
+}
+
+.header-container {
+  display: flex;
+  color: #5995da;
+  background-color: #d6e9fe;
+  justify-content: center;
+}
+.header-container .header {
+  width: 900px;
+  height: 300px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header-container .header .social,
+.header-container .header .subscribe {
+  align-self: center;
+}
+
+.photo-grid-container {
+  display: flex;
+  justify-content: center;
+}
+.photo-grid-container .photo-grid {
+  width: 900px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  flex-direction: row;
+  align-items: center;
+}
+.photo-grid-container .photo-grid .photo-grid-item {
+  width: 300px;
+  height: 300px;
+}
+.photo-grid-container .photo-grid .photo-grid-item .first-item {
+  order: 1;
+}
+.photo-grid-container .photo-grid .photo-grid-item .last-item {
+  order: -1;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+}
+.footer .footer-item {
+  background-color: #d6e9fe;
+  height: 200px;
+  flex: 1;
+}
+.footer .footer-one,
+.footer .footer-three {
+  background-color: #5995da;
+  flex: initial;
+  width: 300px;
+}/*# sourceMappingURL=style.css.map */
